@@ -1,4 +1,5 @@
 import "./style.css";
+import portraitImage from "./assets/headshot.jpg";
 
 buildPage();
 
@@ -14,4 +15,12 @@ function buildPage() {
   body.appendChild(about);
   body.appendChild(work);
   body.appendChild(contact);
+}
+
+function buildAbout() {
+  var about = document.querySelector(".about");
+  var portrait = document.createElement("div");
+  portrait.classList.add("portrait");
+  var img = document.createElement("img");
+  img.src = portraitImage;
 }
