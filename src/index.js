@@ -21,25 +21,27 @@ function buildPage() {
 function buildAbout() {
   var about = document.querySelector(".about");
 
+  var portrait = document.createElement("div");
+  portrait.classList.add("portrait");
   var img = document.createElement("img");
   img.src = portraitImage;
-  img.classList.add("portrait");
-
   var name = document.createElement("h1");
   name.textContent = "Mark Demore II";
+  portrait.appendChild(img);
+  portrait.appendChild(name);
 
-  var bioSpan = document.createElement("span");
-  bioSpan.classList.add("bio");
+  var bioDiv = document.createElement("div");
+  bioDiv.classList.add("bio");
   var aboutHeading = document.createElement("h2");
   aboutHeading.textContent = "About Me";
   var bio = document.createElement("p");
   bio.textContent =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim dolor nec mi pulvinar accumsan. Vestibulum lobortis ultricies mauris, sed lacinia tellus facilisis et. Duis vel augue quis mi tincidunt porta sit amet in diam. Curabitur vulputate mi tincidunt nisi fermentum, et iaculis justo euismod. In tincidunt neque velit, eu bibendum erat luctus in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.";
 
-  bioSpan.appendChild(aboutHeading);
-  bioSpan.appendChild(bio);
+  bioDiv.appendChild(aboutHeading);
+  bioDiv.appendChild(bio);
 
-  about.appendChild(img);
-  about.appendChild(name);
-  about.appendChild(bioSpan);
+  about.appendChild(portrait);
+  //  about.appendChild(name);
+  about.appendChild(bioDiv);
 }

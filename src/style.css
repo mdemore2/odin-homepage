@@ -14,23 +14,56 @@ div {
 
 }
 
+img {
+    max-width: 1080px;
+}
+
 .about{
     background: linear-gradient(to bottom right, var(--dark-color) 40%, var(--light-color) 40%);
-    justify-content: center;
-    gap: 0;
     display: flex;
+    align-items: center;
+    justify-content: center;
+
 
 }
 
 .bio{
     box-shadow: 0 0 3px black;
     background-color: var(--light-color);
+    padding: 16px;
+    max-width: 40%;
+    align-self: center;
+}
+.bio p {
+    margin: 16px;
+}
+
+.portrait {
+    max-width: 360px;
+    padding: 0;
 
 }
+
+.portrait img {
+    box-shadow: 0 0 3px black;
+
+}
+.portrait h1 {
+    text-align: center;
+    position: relative;
+    bottom: 0;
+
+}
+
 
 .work {
     background:  var(--light-color);
 
+}
+
+
+.card {
+    box-shadow: 0 0 3px black;
 }
 
 .contact {
@@ -38,25 +71,5 @@ div {
 
 }
 
-.card {
-    box-shadow: 0 0 3px black;
-}
 
-img {
-    max-width: 1080px;
-}
-
-.portrait {
-    max-width: 360px;
-    padding: 0;
-}
-
-.portrait img {
-    box-shadow: 0 0 3px black;
-
-}
-
-.name {
-    color: var(--light-color);
-}
 
