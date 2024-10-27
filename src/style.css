@@ -4,24 +4,29 @@
     font-family: "Roboto", sans-serif;
     list-style: none;
     text-decoration: none;
-    flex: 1;
-    font-size: 32px;
-    text-align: center;
     --dark-color: #082f49;
     --light-color: #cbd5e1;
 }
   
 div {
     padding: 16px;
-    display: flex;
-    flex-direction: column;
     gap: 16px;
 
 }
 
 .about{
     background: linear-gradient(to bottom right, var(--dark-color) 40%, var(--light-color) 40%);
-  }
+    justify-content: center;
+    gap: 0;
+    display: flex;
+
+}
+
+.bio{
+    box-shadow: 0 0 3px black;
+    background-color: var(--light-color);
+
+}
 
 .work {
     background:  var(--light-color);
@@ -32,3 +37,26 @@ div {
     background: var(--dark-color);
 
 }
+
+.card {
+    box-shadow: 0 0 3px black;
+}
+
+img {
+    max-width: 1080px;
+}
+
+.portrait {
+    max-width: 360px;
+    padding: 0;
+}
+
+.portrait img {
+    box-shadow: 0 0 3px black;
+
+}
+
+.name {
+    color: var(--light-color);
+}
+

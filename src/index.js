@@ -20,18 +20,26 @@ function buildPage() {
 
 function buildAbout() {
   var about = document.querySelector(".about");
-  var portrait = document.createElement("div");
-  portrait.classList.add("portrait");
+
   var img = document.createElement("img");
   img.src = portraitImage;
   img.classList.add("portrait");
-  var caption = document.createElement("span");
-  caption.textContent = "Mark Demore II";
-  caption.classList.add("name");
-  var bio = document.createElement("div");
-  bio.innerHTML =
-    "<h2>About me<h2><br><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim dolor nec mi pulvinar accumsan. Vestibulum lobortis ultricies mauris, sed lacinia tellus facilisis et. Duis vel augue quis mi tincidunt porta sit amet in diam. Curabitur vulputate mi tincidunt nisi fermentum, et iaculis justo euismod. In tincidunt neque velit, eu bibendum erat luctus in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<p>";
+
+  var name = document.createElement("h1");
+  name.textContent = "Mark Demore II";
+
+  var bioSpan = document.createElement("span");
+  bioSpan.classList.add("bio");
+  var aboutHeading = document.createElement("h2");
+  aboutHeading.textContent = "About Me";
+  var bio = document.createElement("p");
+  bio.textContent =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim dolor nec mi pulvinar accumsan. Vestibulum lobortis ultricies mauris, sed lacinia tellus facilisis et. Duis vel augue quis mi tincidunt porta sit amet in diam. Curabitur vulputate mi tincidunt nisi fermentum, et iaculis justo euismod. In tincidunt neque velit, eu bibendum erat luctus in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.";
+
+  bioSpan.appendChild(aboutHeading);
+  bioSpan.appendChild(bio);
+
   about.appendChild(img);
-  about.appendChild(caption);
-  about.appendChild(bio);
+  about.appendChild(name);
+  about.appendChild(bioSpan);
 }
