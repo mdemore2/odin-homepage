@@ -6,9 +6,9 @@
     text-decoration: none;
     flex: 1;
     font-size: 32px;
-    background-color: #082f49;
-    color:#cbd5e1;
     text-align: center;
+    --dark-color: #082f49;
+    --light-color: #cbd5e1;
 }
   
 div {
@@ -16,8 +16,19 @@ div {
     display: flex;
     flex-direction: column;
     gap: 16px;
+
 }
 
 .about{
-    background: linear-gradient(to bottom right, blue 70%, silver 70%);
+    background: linear-gradient(to bottom right, var(--dark-color) 40%, var(--light-color) 40%);
   }
+
+.work {
+    background:  var(--light-color);
+
+}
+
+.contact {
+    background: var(--dark-color);
+
+}

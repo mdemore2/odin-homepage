@@ -1,7 +1,8 @@
 import "./style.css";
-import portraitImage from "./assets/headshot.jpg";
+import portraitImage from "./assets/mark.jpeg";
 
 buildPage();
+buildAbout();
 
 function buildPage() {
   var body = document.querySelector("body");
@@ -23,4 +24,14 @@ function buildAbout() {
   portrait.classList.add("portrait");
   var img = document.createElement("img");
   img.src = portraitImage;
+  img.classList.add("portrait");
+  var caption = document.createElement("span");
+  caption.textContent = "Mark Demore II";
+  caption.classList.add("name");
+  var bio = document.createElement("div");
+  bio.innerHTML =
+    "<h2>About me<h2><br><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim dolor nec mi pulvinar accumsan. Vestibulum lobortis ultricies mauris, sed lacinia tellus facilisis et. Duis vel augue quis mi tincidunt porta sit amet in diam. Curabitur vulputate mi tincidunt nisi fermentum, et iaculis justo euismod. In tincidunt neque velit, eu bibendum erat luctus in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<p>";
+  about.appendChild(img);
+  about.appendChild(caption);
+  about.appendChild(bio);
 }
