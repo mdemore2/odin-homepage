@@ -7,20 +7,16 @@
     --dark-color: #082f49;
     --light-color: #cbd5e1;
 }
-  
-div {
-    padding: 16px;
-    gap: 16px;
-
-}
 
 img {
     max-width: 1080px;
 }
 
 .about{
+    padding: 16px;
     background: linear-gradient(to bottom right, var(--dark-color) 40%, var(--light-color) 40%);
     display: flex;
+    gap: 0;
     align-items: center;
     justify-content: center;
 
@@ -30,28 +26,32 @@ img {
 .bio{
     box-shadow: 0 0 3px black;
     background-color: var(--light-color);
-    padding: 16px;
     max-width: 40%;
     align-self: center;
 }
-.bio p {
+.bio p,h2 {
     margin: 16px;
 }
 
 .portrait {
-    max-width: 360px;
-    padding: 0;
+
+    position: relative;
+    text-align: center;
 
 }
 
 .portrait img {
     box-shadow: 0 0 3px black;
+    max-width: 360px;
+    padding: 0;
 
 }
 .portrait h1 {
     text-align: center;
-    position: relative;
-    bottom: 0;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    color: var(--light-color);
 
 }
 
