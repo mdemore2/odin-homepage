@@ -67,3 +67,21 @@ function buildAbout() {
   //  about.appendChild(name);
   about.appendChild(bioDiv);
 }
+
+function buildWork() {
+  var work = document.querySelector(".work");
+  var heading = document.createElement("h2");
+  heading.textContent = "My Work";
+  var container = document.createElement("div");
+  container.classList.add("container");
+
+  work.appendChild(heading);
+  work.append(container);
+}
+
+function buildCard() {
+  var card = document.createElement("div");
+  card.classList.add("card");
+
+  return card;
+}
