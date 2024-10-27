@@ -1,5 +1,11 @@
 import "./style.css";
 import portraitImage from "./assets/mark.jpeg";
+import linkedIcon from "./assets/linkedin.svg";
+import gitIcon from "./assets/github.svg";
+import emailIcon from "./assets/email-outline.svg";
+import phoneIcon from "./assets/phone-outline.svg";
+import openIcon from "./assets/open-in-new.svg";
+import twitterIcon from "./assets/twitter.svg";
 
 buildPage();
 buildAbout();
@@ -38,8 +44,24 @@ function buildAbout() {
   bio.textContent =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim dolor nec mi pulvinar accumsan. Vestibulum lobortis ultricies mauris, sed lacinia tellus facilisis et. Duis vel augue quis mi tincidunt porta sit amet in diam. Curabitur vulputate mi tincidunt nisi fermentum, et iaculis justo euismod. In tincidunt neque velit, eu bibendum erat luctus in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.";
 
+  var links = document.createElement("div");
+  var git = document.createElement("img");
+  git.src = gitIcon;
+  git.classList.add("icon");
+  var linked = document.createElement("img");
+  linked.src = linkedIcon;
+  linked.classList.add("icon");
+  var twitter = document.createElement("img");
+  twitter.src = twitterIcon;
+  twitter.classList.add("icon");
+  links.appendChild(git);
+  links.appendChild(linked);
+  links.appendChild(twitter);
+  links.classList.add("links");
+
   bioDiv.appendChild(aboutHeading);
   bioDiv.appendChild(bio);
+  bioDiv.appendChild(links);
 
   about.appendChild(portrait);
   //  about.appendChild(name);

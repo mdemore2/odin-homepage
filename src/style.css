@@ -19,8 +19,6 @@ img {
     gap: 0;
     align-items: center;
     justify-content: center;
-
-
 }
 
 .bio{
@@ -34,17 +32,14 @@ img {
 }
 
 .portrait {
-
     position: relative;
     text-align: center;
-
 }
 
 .portrait img {
     box-shadow: 0 0 3px black;
     max-width: 360px;
     padding: 0;
-
 }
 .portrait h1 {
     text-align: center;
@@ -52,13 +47,20 @@ img {
     bottom: 16px;
     left: 16px;
     color: var(--light-color);
+}
 
+.icon {
+    max-width: 32px;
+}
+
+.links {
+    padding-left: 16px;
+    padding-bottom: 16px;
 }
 
 
 .work {
     background:  var(--light-color);
-
 }
 
 
@@ -68,7 +70,6 @@ img {
 
 .contact {
     background: var(--dark-color);
-
 }
 
 

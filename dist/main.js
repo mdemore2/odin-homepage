@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `* {\n    margin: 0;\n    padding: 0;\n    font-family: \"Roboto\", sans-serif;\n    list-style: none;\n    text-decoration: none;\n    --dark-color: #082f49;\n    --light-color: #cbd5e1;\n}\n\nimg {\n    max-width: 1080px;\n}\n\n.about{\n    padding: 16px;\n    background: linear-gradient(to bottom right, var(--dark-color) 40%, var(--light-color) 40%);\n    display: flex;\n    gap: 0;\n    align-items: center;\n    justify-content: center;\n\n\n}\n\n.bio{\n    box-shadow: 0 0 3px black;\n    background-color: var(--light-color);\n    max-width: 40%;\n    align-self: center;\n}\n.bio p,h2 {\n    margin: 16px;\n}\n\n.portrait {\n\n    position: relative;\n    text-align: center;\n\n}\n\n.portrait img {\n    box-shadow: 0 0 3px black;\n    max-width: 360px;\n    padding: 0;\n\n}\n.portrait h1 {\n    text-align: center;\n    position: absolute;\n    bottom: 16px;\n    left: 16px;\n    color: var(--light-color);\n\n}\n\n\n.work {\n    background:  var(--light-color);\n\n}\n\n\n.card {\n    box-shadow: 0 0 3px black;\n}\n\n.contact {\n    background: var(--dark-color);\n\n}\n\n\n\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://odin-homepage/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `* {\n    margin: 0;\n    padding: 0;\n    font-family: \"Roboto\", sans-serif;\n    list-style: none;\n    text-decoration: none;\n    --dark-color: #082f49;\n    --light-color: #cbd5e1;\n}\n\nimg {\n    max-width: 1080px;\n}\n\n.about{\n    padding: 16px;\n    background: linear-gradient(to bottom right, var(--dark-color) 40%, var(--light-color) 40%);\n    display: flex;\n    gap: 0;\n    align-items: center;\n    justify-content: center;\n}\n\n.bio{\n    box-shadow: 0 0 3px black;\n    background-color: var(--light-color);\n    max-width: 40%;\n    align-self: center;\n}\n.bio p,h2 {\n    margin: 16px;\n}\n\n.portrait {\n    position: relative;\n    text-align: center;\n}\n\n.portrait img {\n    box-shadow: 0 0 3px black;\n    max-width: 360px;\n    padding: 0;\n}\n.portrait h1 {\n    text-align: center;\n    position: absolute;\n    bottom: 16px;\n    left: 16px;\n    color: var(--light-color);\n}\n\n.icon {\n    max-width: 32px;\n}\n\n.links {\n    padding-left: 16px;\n    padding-bottom: 16px;\n}\n\n\n.work {\n    background:  var(--light-color);\n}\n\n\n.card {\n    box-shadow: 0 0 3px black;\n}\n\n.contact {\n    background: var(--dark-color);\n}\n\n\n\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://odin-homepage/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -116,7 +116,37 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _assets_mark_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/mark.jpeg */ \"./src/assets/mark.jpeg\");\n\n\n\nbuildPage();\nbuildAbout();\n\nfunction buildPage() {\n  var body = document.querySelector(\"body\");\n  var about = document.createElement(\"div\");\n  about.classList.add(\"about\");\n  var work = document.createElement(\"div\");\n  work.classList.add(\"work\");\n  var contact = document.createElement(\"div\");\n  contact.classList.add(\"contact\");\n\n  body.appendChild(about);\n  body.appendChild(work);\n  body.appendChild(contact);\n}\n\nfunction buildAbout() {\n  var about = document.querySelector(\".about\");\n\n  var portrait = document.createElement(\"div\");\n  portrait.classList.add(\"portrait\");\n  var img = document.createElement(\"img\");\n  img.src = _assets_mark_jpeg__WEBPACK_IMPORTED_MODULE_1__;\n  var name = document.createElement(\"h1\");\n  name.textContent = \"Mark Demore II\";\n  portrait.appendChild(img);\n  portrait.appendChild(name);\n\n  var bioDiv = document.createElement(\"div\");\n  bioDiv.classList.add(\"bio\");\n  var aboutHeading = document.createElement(\"h2\");\n  aboutHeading.textContent = \"About Me\";\n  var bio = document.createElement(\"p\");\n  bio.textContent =\n    \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim dolor nec mi pulvinar accumsan. Vestibulum lobortis ultricies mauris, sed lacinia tellus facilisis et. Duis vel augue quis mi tincidunt porta sit amet in diam. Curabitur vulputate mi tincidunt nisi fermentum, et iaculis justo euismod. In tincidunt neque velit, eu bibendum erat luctus in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\";\n\n  bioDiv.appendChild(aboutHeading);\n  bioDiv.appendChild(bio);\n\n  about.appendChild(portrait);\n  //  about.appendChild(name);\n  about.appendChild(bioDiv);\n}\n\n\n//# sourceURL=webpack://odin-homepage/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _assets_mark_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/mark.jpeg */ \"./src/assets/mark.jpeg\");\n/* harmony import */ var _assets_linkedin_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/linkedin.svg */ \"./src/assets/linkedin.svg\");\n/* harmony import */ var _assets_github_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/github.svg */ \"./src/assets/github.svg\");\n/* harmony import */ var _assets_email_outline_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/email-outline.svg */ \"./src/assets/email-outline.svg\");\n/* harmony import */ var _assets_phone_outline_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/phone-outline.svg */ \"./src/assets/phone-outline.svg\");\n/* harmony import */ var _assets_open_in_new_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/open-in-new.svg */ \"./src/assets/open-in-new.svg\");\n/* harmony import */ var _assets_twitter_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/twitter.svg */ \"./src/assets/twitter.svg\");\n\n\n\n\n\n\n\n\n\nbuildPage();\nbuildAbout();\n\nfunction buildPage() {\n  var body = document.querySelector(\"body\");\n  var about = document.createElement(\"div\");\n  about.classList.add(\"about\");\n  var work = document.createElement(\"div\");\n  work.classList.add(\"work\");\n  var contact = document.createElement(\"div\");\n  contact.classList.add(\"contact\");\n\n  body.appendChild(about);\n  body.appendChild(work);\n  body.appendChild(contact);\n}\n\nfunction buildAbout() {\n  var about = document.querySelector(\".about\");\n\n  var portrait = document.createElement(\"div\");\n  portrait.classList.add(\"portrait\");\n  var img = document.createElement(\"img\");\n  img.src = _assets_mark_jpeg__WEBPACK_IMPORTED_MODULE_1__;\n  var name = document.createElement(\"h1\");\n  name.textContent = \"Mark Demore II\";\n  portrait.appendChild(img);\n  portrait.appendChild(name);\n\n  var bioDiv = document.createElement(\"div\");\n  bioDiv.classList.add(\"bio\");\n  var aboutHeading = document.createElement(\"h2\");\n  aboutHeading.textContent = \"About Me\";\n  var bio = document.createElement(\"p\");\n  bio.textContent =\n    \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim dolor nec mi pulvinar accumsan. Vestibulum lobortis ultricies mauris, sed lacinia tellus facilisis et. Duis vel augue quis mi tincidunt porta sit amet in diam. Curabitur vulputate mi tincidunt nisi fermentum, et iaculis justo euismod. In tincidunt neque velit, eu bibendum erat luctus in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\";\n\n  var links = document.createElement(\"div\");\n  var git = document.createElement(\"img\");\n  git.src = _assets_github_svg__WEBPACK_IMPORTED_MODULE_3__;\n  git.classList.add(\"icon\");\n  var linked = document.createElement(\"img\");\n  linked.src = _assets_linkedin_svg__WEBPACK_IMPORTED_MODULE_2__;\n  linked.classList.add(\"icon\");\n  var twitter = document.createElement(\"img\");\n  twitter.src = _assets_twitter_svg__WEBPACK_IMPORTED_MODULE_7__;\n  twitter.classList.add(\"icon\");\n  links.appendChild(git);\n  links.appendChild(linked);\n  links.appendChild(twitter);\n  links.classList.add(\"links\");\n\n  bioDiv.appendChild(aboutHeading);\n  bioDiv.appendChild(bio);\n  bioDiv.appendChild(links);\n\n  about.appendChild(portrait);\n  //  about.appendChild(name);\n  about.appendChild(bioDiv);\n}\n\n\n//# sourceURL=webpack://odin-homepage/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/assets/email-outline.svg":
+/*!**************************************!*\
+  !*** ./src/assets/email-outline.svg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ffe24abaeb56c6af70c1.svg\";\n\n//# sourceURL=webpack://odin-homepage/./src/assets/email-outline.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/github.svg":
+/*!*******************************!*\
+  !*** ./src/assets/github.svg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"550985caaa8859d4b95f.svg\";\n\n//# sourceURL=webpack://odin-homepage/./src/assets/github.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/linkedin.svg":
+/*!*********************************!*\
+  !*** ./src/assets/linkedin.svg ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"eaccfc4b453ff94aff73.svg\";\n\n//# sourceURL=webpack://odin-homepage/./src/assets/linkedin.svg?");
 
 /***/ }),
 
@@ -127,6 +157,36 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"b069651923214b385bfe.jpeg\";\n\n//# sourceURL=webpack://odin-homepage/./src/assets/mark.jpeg?");
+
+/***/ }),
+
+/***/ "./src/assets/open-in-new.svg":
+/*!************************************!*\
+  !*** ./src/assets/open-in-new.svg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"3ede19ed228086e87d89.svg\";\n\n//# sourceURL=webpack://odin-homepage/./src/assets/open-in-new.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/phone-outline.svg":
+/*!**************************************!*\
+  !*** ./src/assets/phone-outline.svg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"04d357205b0858045638.svg\";\n\n//# sourceURL=webpack://odin-homepage/./src/assets/phone-outline.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/twitter.svg":
+/*!********************************!*\
+  !*** ./src/assets/twitter.svg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"77a2f5734999924fb343.svg\";\n\n//# sourceURL=webpack://odin-homepage/./src/assets/twitter.svg?");
 
 /***/ })
 
