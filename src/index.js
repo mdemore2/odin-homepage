@@ -41,7 +41,7 @@ function buildAbout() {
 
   var bioDiv = document.createElement("div");
   bioDiv.classList.add("bio");
-  var aboutHeading = document.createElement("h2");
+  var aboutHeading = document.createElement("h1");
   aboutHeading.textContent = "About Me";
   var bio = document.createElement("p");
   bio.textContent =
@@ -73,7 +73,7 @@ function buildAbout() {
 
 function buildWork() {
   var work = document.querySelector(".work");
-  var heading = document.createElement("h2");
+  var heading = document.createElement("h1");
   heading.textContent = "My Work";
   var container = document.createElement("div");
   container.classList.add("container");
@@ -91,13 +91,14 @@ function buildCard() {
   card.classList.add("card");
   var img = document.createElement("img");
   img.src = projectImage;
+  img.classList.add("project-img");
 
   var textDiv = document.createElement("div");
   textDiv.classList.add("card-text");
 
   var titleDiv = document.createElement("div");
   titleDiv.classList.add("card-title");
-  var title = document.createElement("h3");
+  var title = document.createElement("h2");
   title.textContent = "my project";
 
   var cardIcons = document.createElement("div");
@@ -116,7 +117,7 @@ function buildCard() {
   var description = document.createElement("p");
   description.textContent =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim dolor nec mi pulvinar accumsan. Vestibulum lobortis ultricies mauris, sed lacinia tellus facilisis et. Duis vel augue quis mi tincidunt porta sit amet in diam. Curabitur vulputate mi tincidunt nisi fermentum, et iaculis justo euismod. In tincidunt neque velit, eu bibendum erat luctus in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.";
-  textDiv.appendChild(title);
+  textDiv.appendChild(titleDiv);
   textDiv.appendChild(description);
 
   card.appendChild(img);

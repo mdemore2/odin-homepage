@@ -8,6 +8,11 @@
     --light-color: #cbd5e1;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 img {
     max-width: 1080px;
 }
@@ -27,7 +32,7 @@ img {
     max-width: 40%;
     align-self: center;
 }
-.bio p,h2 {
+.bio p, .bio h1 {
     margin: 16px;
 }
 
@@ -63,10 +68,15 @@ img {
     background:  var(--light-color);
 }
 
+.work h1{
+    padding: 16px;
+}
+
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
+    margin: 16px;
 }
 .card {
     max-width: 360px;
@@ -74,7 +84,23 @@ img {
     padding: 16px;
 }
 
-.card img{
+.card-title {
+    display: flex;
+}
+
+.card-title img {
+    max-height: inherit;
+}
+.card-title h2 {
+    flex:1;
+}
+.card-title div{
+    flex: 1;
+    vertical-align: middle;
+    left: auto;
+}
+
+.project-img{
     object-fit: scale-down;
     max-width: inherit;
 }
