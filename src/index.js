@@ -6,9 +6,12 @@ import emailIcon from "./assets/email-outline.svg";
 import phoneIcon from "./assets/phone-outline.svg";
 import openIcon from "./assets/open-in-new.svg";
 import twitterIcon from "./assets/twitter.svg";
+import projectImage from "./assets/project.png";
 
 buildPage();
 buildAbout();
+
+buildWork();
 
 function buildPage() {
   var body = document.querySelector("body");
@@ -75,6 +78,10 @@ function buildWork() {
   var container = document.createElement("div");
   container.classList.add("container");
 
+  for (let i = 0; i < 6; i++) {
+    container.appendChild(buildCard());
+  }
+
   work.appendChild(heading);
   work.append(container);
 }
@@ -82,6 +89,38 @@ function buildWork() {
 function buildCard() {
   var card = document.createElement("div");
   card.classList.add("card");
+  var img = document.createElement("img");
+  img.src = projectImage;
+
+  var textDiv = document.createElement("div");
+  textDiv.classList.add("card-text");
+
+  var titleDiv = document.createElement("div");
+  titleDiv.classList.add("card-title");
+  var title = document.createElement("h3");
+  title.textContent = "my project";
+
+  var cardIcons = document.createElement("div");
+  var git = document.createElement("img");
+  git.src = gitIcon;
+  git.classList.add("icon");
+  var open = document.createElement("img");
+  open.src = openIcon;
+  open.classList.add("icon");
+  cardIcons.appendChild(git);
+  cardIcons.appendChild(open);
+
+  titleDiv.appendChild(title);
+  titleDiv.appendChild(cardIcons);
+
+  var description = document.createElement("p");
+  description.textContent =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim dolor nec mi pulvinar accumsan. Vestibulum lobortis ultricies mauris, sed lacinia tellus facilisis et. Duis vel augue quis mi tincidunt porta sit amet in diam. Curabitur vulputate mi tincidunt nisi fermentum, et iaculis justo euismod. In tincidunt neque velit, eu bibendum erat luctus in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.";
+  textDiv.appendChild(title);
+  textDiv.appendChild(description);
+
+  card.appendChild(img);
+  card.appendChild(textDiv);
 
   return card;
 }

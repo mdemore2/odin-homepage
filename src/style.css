@@ -63,9 +63,20 @@ img {
     background:  var(--light-color);
 }
 
-
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
 .card {
+    max-width: 360px;
     box-shadow: 0 0 3px black;
+    padding: 16px;
+}
+
+.card img{
+    object-fit: scale-down;
+    max-width: inherit;
 }
 
 .contact {
