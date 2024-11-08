@@ -7,11 +7,14 @@ import phoneIcon from "./assets/phone-outline.svg";
 import openIcon from "./assets/open-in-new.svg";
 import twitterIcon from "./assets/twitter.svg";
 import projectImage from "./assets/project.png";
+import footerImage from "./assets/pexels-cottonbro-4709369.jpg";
 
 buildPage();
 buildAbout();
 
 buildWork();
+
+buildContact();
 
 function buildPage() {
   var body = document.querySelector("body");
@@ -124,4 +127,60 @@ function buildCard() {
   card.appendChild(textDiv);
 
   return card;
+}
+
+function buildContact() {
+  var contact = document.querySelector(".contact");
+  var title = document.createElement("h1");
+  title.textContent = "Connect with me";
+  var content = document.createElement("div");
+  content.classList.add("contact-content");
+  var callToAction = document.createElement("p");
+  callToAction.textContent = "Please don't hesitate to reach out!";
+  var address = document.createElement("p");
+  address.innerHTML = "123 Drury Lane<br>Muffin, MN 12345";
+  var info1 = document.createElement("span");
+  var info2 = document.createElement("span");
+
+  var number = document.createElement("p");
+  number.textContent = "+1 555-555-5555";
+  var emailAddr = document.createElement("p");
+  emailAddr.textContent = "not.me@gmail.com";
+  var links = document.createElement("span");
+
+  var git = document.createElement("img");
+  git.src = gitIcon;
+  git.classList.add("icon");
+  var linked = document.createElement("img");
+  linked.src = linkedIcon;
+  linked.classList.add("icon");
+  var phone = document.createElement("img");
+  phone.src = phoneIcon;
+  phone.classList.add("icon");
+  var email = document.createElement("img");
+  email.src = emailIcon;
+  email.classList.add("icon");
+
+  var footer = document.createElement("img");
+  footer.src = footerImage;
+  footer.classList.add("footer");
+
+  info1.appendChild(phone);
+  info1.appendChild(number);
+
+  info2.appendChild(email);
+  info2.appendChild(emailAddr);
+
+  links.appendChild(git);
+  links.appendChild(linked);
+
+  content.appendChild(title);
+  content.appendChild(callToAction);
+  content.appendChild(address);
+  content.appendChild(info1);
+  content.appendChild(info2);
+  content.appendChild(links);
+
+  contact.appendChild(content);
+  contact.appendChild(footer);
 }

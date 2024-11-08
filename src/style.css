@@ -110,7 +110,40 @@ img {
 
 .contact {
     background: var(--dark-color);
+    display: flex;
+    color:#cbd5e1;
+    padding: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
 }
 
+.footer {
+    max-width: 720px;
+    max-height: 720px;
+    flex: 1;
+}
 
+.contact-content {
+    flex: 2;
+    align-items: center;
+    text-align: right;
+    flex-grow: 0;
+    flex-basis: auto;
+}
 
+.contact-content > p {
+    margin: 1rem;
+}
+
+.contact-content > span {
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+}
+
+.contact .icon {
+    filter:invert(93%) sepia(4%) saturate(929%) hue-rotate(179deg) brightness(94%) contrast(86%);
+}
