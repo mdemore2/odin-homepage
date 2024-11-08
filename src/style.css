@@ -120,7 +120,7 @@ img {
 
 .footer {
     max-width: 720px;
-    max-height: 720px;
+    height: auto;
     flex: 1;
 }
 
@@ -146,4 +146,10 @@ img {
 
 .contact .icon {
     filter:invert(93%) sepia(4%) saturate(929%) hue-rotate(179deg) brightness(94%) contrast(86%);
+}
+
+@media (max-width: 1250px) {
+    .footer {
+      width: 50%;
+    }
 }
