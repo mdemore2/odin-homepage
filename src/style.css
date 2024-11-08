@@ -151,11 +151,14 @@ img {
 
 @media (max-width: 1200px) {
     .footer {
-      width: 50%;
+      max-width: 360px;
     }
 }
 
 @media (max-width: 600px) {
+    .footer {
+        max-width: 250px;
+      }
     .contact {
       flex-direction: column;
     }
