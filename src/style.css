@@ -80,6 +80,7 @@ img {
     margin: 16px;
     align-items: center;
     justify-items: center;
+    justify-content: center;
 }
 .card {
     max-width: 360px;
@@ -97,10 +98,10 @@ img {
 .card-title h2 {
     flex:1;
 }
-.card-title div{
+.card-title > div{
     flex: 1;
     vertical-align: middle;
-    left: auto;
+    text-align: right;
 }
 
 .project-img{
@@ -148,8 +149,40 @@ img {
     filter:invert(93%) sepia(4%) saturate(929%) hue-rotate(179deg) brightness(94%) contrast(86%);
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1200px) {
     .footer {
       width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact {
+      flex-direction: column;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .bio{
+        max-width: 80%;
+    }
+
+    .work {
+        padding: 1rem;
+    }
+    .container {
+        margin: 0;
+        gap: 16px;
+    }
+
+    .card {
+        max-width: 300px;
+    }
+    .project-img {
+        max-width: 250px;
+    }
+
+    .card-text{
+        max-width: 250px;
+        overflow-wrap: break-word;
     }
 }
